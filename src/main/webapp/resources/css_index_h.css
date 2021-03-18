@@ -1,0 +1,125 @@
+
+.main{
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+
+}
+
+body{
+    background-size: 100%;
+    background: url("22.jpg") no-repeat fixed center;
+}
+
+
+table {
+    font: 16px "Helvetica", sans-serif;
+    border: 2px solid rgba(16, 46, 82, 0.8);
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+td {
+    border: 1px solid rgba(16, 46, 82, 0.8);
+    padding:  3px 10px;
+   }
+
+th {
+    padding: 15px;
+    border: 1px solid white;
+    background-color: rgba(16, 46, 82, 0.8);
+    color: white;
+
+}
+tr:hover{
+    background-color: white;
+}
+
+caption{
+    font-weight:bold;
+    padding: 10px;
+    font-size: 2.5em;
+    color: #102a52;
+    text-align:center;
+    margin-bottom: 10px;
+
+}
+
+.user_table{
+    align-items: center;
+}
+
+.create_user {
+    vertical-align: top;
+    margin-top: 95px;
+    margin-left: 30px;
+}
+
+div .button{
+    border-radius: 10px;
+    border: 2px solid #102e52;
+    color: #102e52;
+    font: 16px "Helvetica", sans-serif;
+    font-weight:bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.7);
+   }
+div .button:hover{
+    border: 2px solid #102e52;
+    background-color: #102e52;
+    color: white;
+
+}
+div .button_table{
+    margin:5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #36567b;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font: 16px "Helvetica", sans-serif;
+}
+
+div .button_table:hover {
+    background-color: #102e52;
+}
+
+div .button_del {
+    background-color: #ce714d;
+}
+div .button_del:hover {
+    background-color: #aa3c11;
+}
+
+div .button_id{
+    text-decoration: none;
+    color: #102e52;
+    }
+
+
+div .button_id:visited{
+    text-decoration: none;
+    color: #102e52;
+
+}
+div .button_id:hover{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    }
+.id{
+    text-align: center;
+}
+
+
+
+
